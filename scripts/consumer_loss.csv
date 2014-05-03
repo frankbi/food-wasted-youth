@@ -1,0 +1,196 @@
+Dairy,Plain whole milk,20.0
+Dairy,2 percent milk,20.0
+Dairy,1 percent milk,20.0
+Dairy,Skim milk,20.0
+Dairy,Whole flavored milk,45.0
+Dairy,Lowfat flavored milk,45.0
+Dairy,Buttermilk,18.0
+Dairy,Yogurt,21.0
+Dairy,Cheddar cheese,11.0
+Dairy,Other American cheese,28.0
+Dairy,Provolone cheese,14.0
+Dairy,Romano cheese,8.0
+Dairy,Parmesan cheese,8.0
+Dairy,Mozarella cheese,31.0
+Dairy,Ricotta cheese,12.0
+Dairy,Other Italian cheese,16.0
+Dairy,Swiss cheese,50.0
+Dairy,Brick cheese,40.0
+Dairy,Muenster cheese,35.0
+Dairy,Blue cheese,43.0
+Dairy,Other miscellaneous cheese,42.0
+Dairy,Regular cottage cheese,31.0
+Dairy,Lowfat cottage cheese,4.0
+Dairy,Ice cream,24.0
+Dairy,Ice milk,24.0
+Dairy,Other frozen,33.0
+Dairy,Evap cond canned whole milk,15.0
+Dairy,Evap cond bulk whole milk,15.0
+Dairy,Evap cond skim milk,15.0
+Dairy,Dry whole milk,41.0
+Dairy,Nonfat dry milk,41.0
+Dairy,Dry buttermilk,41.0
+Dairy,Half and half,NA
+Dairy,Eggnog,51.0
+Fruit,Fresh oranges,36.0
+Fruit,Fresh tangerines,52.0
+Fruit,Fresh grapefruit,20.0
+Fruit,Fresh lemons,44.0
+Fruit,Fresh limes,44.0
+Fruit,Fresh apples,20.0
+Fruit,Fresh apricots,10.0
+Fruit,Fresh avocados,32.0
+Fruit,Fresh bananas,20.0
+Fruit,Fresh blueberries,8.0
+Fruit,Fresh cantaloup,43.0
+Fruit,Fresh cherries,51.0
+Fruit,Fresh cranberries,26.0
+Fruit,Fresh grapes,33.0
+Fruit,Fresh honeydew,43.0
+Fruit,Fresh kiwi,45.0
+Fruit,Fresh mangoes,13.0
+Fruit,Fresh papaya,20.0
+Fruit,Fresh peaches,42.0
+Fruit,Fresh pears,20.0
+Fruit,Fresh pineapple,37.0
+Fruit,Fresh plums,27.0
+Fruit,Fresh raspberries,20.0
+Fruit,Fresh strawberries,35.0
+Fruit,Fresh watermelon,13.0
+Fruit,Canned apples,8.0
+Fruit,Canned apricots,27.0
+Fruit,Canned sweet cherries,32.0
+Fruit,Canned tart cherries,32.0
+Fruit,Canned peaches,9.0
+Fruit,Canned pears,9.0
+Fruit,Canned pineapple,9.0
+Fruit,Canned plums,26.0
+Fruit,Canned olives,25.0
+Fruit,Frozen blackberries,40.0
+Fruit,Frozen blueberries,29.0
+Fruit,Frozen sweet cherries,29.0
+Fruit,Frozen tart cherries,29.0
+Fruit,Frozen raspberries,24.0
+Fruit,Frozen strawberries,24.0
+Fruit,Frozen other berries,30.0
+Fruit,Frozen apples,35.0
+Fruit,Frozen apricots,35.0
+Fruit,Frozen peaches,35.0
+Fruit,Frozen plums,10.0
+Fruit,Dried apples,11.0
+Fruit,Dried apricots,11.0
+Fruit,Dried dates,25.0
+Fruit,Dried figs,25.0
+Fruit,Dried peaches,11.0
+Fruit,Dried pears,NA
+Fruit,Dried plums,11.0
+Fruit,Raisins,26.0
+Fruit,Orange juice,10.0
+Fruit,Grapefruit juice,10.0
+Fruit,Lemon juice,10.0
+Fruit,Lime juice,10.0
+Fruit,Apple juice,10.0
+Fruit,Cranberry juice,10.0
+Fruit,Grape juice,10.0
+Fruit,Pineapple juice,10.0
+Fruit,Prune juice,32.0
+grain,Wheat flour,20.0
+grain,Rye flour,20.0
+grain,Rice,33.0
+grain,Corn flour and meal,20.0
+grain,Corn hominy and grits,20.0
+grain,Corn starch,20.0
+grain,Oat products,14.0
+grain,Barley products,14.0
+grain,White and whole wheat flour,20.0
+grain,Durum flour,20.0
+meat,Beef,20.0
+meat,Veal,20.0
+meat,Pork,29.0
+meat,Lamb,20.0
+meat,Chicken,15.0
+meat,Turkey,35.0
+meat,Fresh and frozen fish,40.0
+meat,Fresh and frozen shellfish,40.0
+meat,Canned Salmon,17.0
+meat,Canned Sardines,36.0
+meat,Canned Tuna,17.0
+meat,Canned shellfish,17.0
+meat,Other canned fish,17.0
+meat,Cured fish,17.0
+meat,Eggs,23.0
+meat,Peanuts,4.0
+meat,Almonds,21.0
+meat,Hazelnuts,20.0
+meat,Pecans,14.0
+meat,Walnuts,18.0
+meat,Macadamia,8.0
+meat,Pistachios,16.0
+meat,Other tree nuts,18.0
+meat,Coconut,10.0
+veg,Fresh artichokes,18.0
+veg,Fresh asparagus,18.0
+veg,Fresh bell peppers,39.0
+veg,Fresh broccoli,12.0
+veg,Fresh Brussels sprouts,12.0
+veg,Fresh cabbage,24.0
+veg,Fresh carrots,34.0
+veg,Fresh cauliflower,9.0
+veg,Fresh celery,39.0
+veg,Fresh collard greens,38.0
+veg,Fresh sweet corn,32.0
+veg,Fresh cucumbers,32.0
+veg,Fresh eggplant,26.0
+veg,Fresh escarole,24.0
+veg,Fresh garlic,43.0
+veg,Fresh kale,38.0
+veg,Fresh head lettuce,24.0
+veg,Fresh leaf lettuce,24.0
+veg,Fresh lima beans,27.0
+veg,Fresh mushrooms,21.0
+veg,Fresh mustard greens,38.0
+veg,Fresh okra,20.0
+veg,Fresh onions,43.0
+veg,Fresh potatoes,16.0
+veg,Fresh pumpkin,69.0
+veg,Fresh radishes,47.0
+veg,Fresh snap beans,24.0
+veg,Fresh spinach,9.0
+veg,Fresh squash,25.0
+veg,Fresh sweetpotatoes,44.0
+veg,Fresh tomatoes,7.0
+veg,Fresh turnip greens,38.0
+veg,Canned asparagus,2.0
+veg,Canned snap beans,24.0
+veg,Canned cabbage,16.0
+veg,Canned carrots,31.0
+veg,Canned sweet corn,7.0
+veg,Canned cucumbers,3.0
+veg,Canned green peas,24.0
+veg,Canned mushrooms,9.0
+veg,Canned chile peppers,4.0
+veg,Canned potatoes,28.0
+veg,Canned tomatoes,28.0
+veg,Other canned vegetables,16.0
+veg,Frozen asparagus,26.0
+veg,Frozen snap beans,24.0
+veg,Frozen broccoli,12.0
+veg,Frozen carrots,34.0
+veg,Frozen cauliflower,27.0
+veg,Frozen sweet corn,36.0
+veg,Frozen green peas,24.0
+veg,Frozen lima beans,27.0
+veg,Frozen potatoes,16.0
+veg,Frozen spinach,34.0
+veg,Misc frozen vegetables,26.0
+veg,Dehydrated onions,4.0
+veg,Dehydrated potatoes,4.0
+veg,Potato chips,4.0
+veg,Dry Peas and lentils,10.0
+veg,Dry black beans,10.0
+veg,Dry great northern beans,10.0
+veg,Dry lima beans,10.0
+veg,Dry navy beans,10.0
+veg,Dry pinto beans,10.0
+veg,Dry red kidney beans,10.0
+veg,Other dry beans,10.0
