@@ -1,0 +1,62 @@
+{
+ "fruitveg": {
+  "Approximate Recommended Diet": 0.3225806452, 
+  "Consumer Losses": 0.28, 
+  "Distribution and Retail Losses": 0.12, 
+  "Label": "Fruits and Vegetables", 
+  "Postharvest Handling and Storage Losses": 0.03, 
+  "Pre-Consumer Losses": 0.36, 
+  "Processing and Packaging Losses": 0.01, 
+  "Production Losses": 0.2, 
+  "Total Loss": 0.52, 
+  "key": "fruitveg"
+ }, 
+ "grain": {
+  "Approximate Recommended Diet": 0.064516129, 
+  "Consumer Losses": 0.27, 
+  "Distribution and Retail Losses": 0.02, 
+  "Label": "Grain Products", 
+  "Postharvest Handling and Storage Losses": 0.02, 
+  "Pre-Consumer Losses": 0.16, 
+  "Processing and Packaging Losses": 0.1, 
+  "Production Losses": 0.02, 
+  "Total Loss": 0.38, 
+  "key": "grain"
+ }, 
+ "meat": {
+  "Approximate Recommended Diet": 0.2258064516, 
+  "Consumer Losses": 0.12, 
+  "Distribution and Retail Losses": 0.04, 
+  "Label": "Meat", 
+  "Postharvest Handling and Storage Losses": 0.02, 
+  "Pre-Consumer Losses": 0.13, 
+  "Processing and Packaging Losses": 0.04, 
+  "Production Losses": 0.03, 
+  "Total Loss": 0.22, 
+  "key": "meat"
+ }, 
+ "milk": {
+  "Approximate Recommended Diet": 0.1935483871, 
+  "Consumer Losses": 0.17, 
+  "Distribution and Retail Losses": 0.0025, 
+  "Label": "Milk", 
+  "Postharvest Handling and Storage Losses": 0.0025, 
+  "Pre-Consumer Losses": 0.04, 
+  "Processing and Packaging Losses": 0.005, 
+  "Production Losses": 0.03, 
+  "Total Loss": 0.2, 
+  "key": "milk"
+ }, 
+ "seafood": {
+  "Approximate Recommended Diet": 0.1935483871, 
+  "Consumer Losses": 0.33, 
+  "Distribution and Retail Losses": 0.095, 
+  "Label": "Seafood", 
+  "Postharvest Handling and Storage Losses": 0.005, 
+  "Pre-Consumer Losses": 0.26, 
+  "Processing and Packaging Losses": 0.05, 
+  "Production Losses": 0.11, 
+  "Total Loss": 0.5, 
+  "key": "seafood"
+ }
+}
