@@ -1,10 +1,15 @@
 body { background-color: #ededed; }
 
+.pad-top {padding-top: 30px;}
+
 h1, h2, h3, h4 {
   font-family: 'adelle', sans-serif;
 }
 
-h1 { font-size: 5em;
+h1 {
+  padding-top: 40px;
+  font-size: 6em;
+  line-height: .9em;
   font-weight: bold;
 }
 
@@ -20,8 +25,15 @@ ul {
   padding-bottom: 50px;
 }
 
-.house {
+#plate {
+  background-image: url(/graphics/chart.png);
   width: 500px;
+  min-height: 500px;
+  margin-left: 50px;
+}
+
+.house {
+  width: 400px;
   margin: 0 auto;
 }
 

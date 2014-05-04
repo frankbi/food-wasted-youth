@@ -22,9 +22,20 @@
 	<body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-offset-2 col-md-8">
-          <h1 class="text-center">ScrapStats</h1>
-          <p class="lead text-center">Keep it simple, yo. This will be a short intro explaining the data that is being displayed and how to interact with it.</p>
+        <div class="col-md-offset-1 col-md-10 pad-top">
+          <div class="row">
+            <div class="col-md-7 clearfix">
+              <div id="plate"></div>
+            </div>
+            <div class="col-md-3">
+              <h1>Scrap Stats</h1>
+              <p class="lead">Food waste is simple. We throw away about half of what we create. The chart below illustrates just how bad the problem is when compared to the average American diet.</p>
+            </div>
+          </div>
+<!--           <div class="house">
+            <div id="plate"></div>
+          </div> -->
+
           <ul class="icons clearfix">
             <li id="fruit">Fruits</li>
             <li id="veg">Vegetables</li>
@@ -41,7 +52,7 @@
             <script type="text/javascript" src="../js/d3.min.js"></script>
 			<script type="text/javascript" src="../js/handlebars-v1.3.0.js"></script>
 			<script id="table-template" type="text/x-handlebars-template">
-			
+
 				<div class="col-md-offset-2 col-md-10">
 					<div class="col-md-2">
 						<h2>Skim Milk</h2>
