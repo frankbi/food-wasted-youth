@@ -81,14 +81,14 @@ li:hover {
 }
 
 #fruit { background-image: url(../graphics/icon_5254.svg); }
-#fruit:hover { background-image: url(../graphics/icon_5254_1.svg); }
+#fruit:hover, #fruit:active { background-image: url(../graphics/icon_5254_1.svg); }
 #veg { background-image: url(../graphics/icon_23999.svg); }
-#veg:hover { background-image: url(../graphics/icon_23999_1.svg); }
-#grain { background-image: url(../graphics/icon_4139.svg); }
-#grain:hover { background-image: url(../graphics/icon_4139_1.svg); }
+#veg:hover, #veg:active { background-image: url(../graphics/icon_23999_1.svg); }
+#grain { background-image: url(../graphics/icon_4138.svg); }
+#grain:hover, #grain:active { background-image: url(../graphics/icon_4138_1.svg); }
 #meat { background-image: url(../graphics/icon_5965.svg); }
-#meat:hover { background-image: url(../graphics/icon_5965_1.svg); }
+#meat:hover, #meat:active { background-image: url(../graphics/icon_5965_1.svg); }
 #milk { background-image: url(../graphics/icon_1701.svg); }
-#milk:hover { background-image: url(../graphics/icon_1701_1.svg); }
+#milk:hover, #milk:active { background-image: url(../graphics/icon_1701_1.svg); }
 #seafood { background-image: url(../graphics/icon_25364.svg); }
-#seafood:hover { background-image: url(../graphics/icon_25364_1.svg); }
+#seafood:hover, #seafood:active { background-image: url(../graphics/icon_25364_1.svg); }
