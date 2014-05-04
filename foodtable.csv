@@ -9,7 +9,10 @@ Fruit,Apple juice,37.96,10,9.405809256
 Fruit,Fresh plums,47.371986933,27,0.2347996054
 Fruit,Raisins,85.7048088234,26,4.1502574249
 Fruit,Fresh lemons,91.9616088294,44,0.0764845686
+grain,Corn starch,29.6,20,15.7477200658
 grain,Corn flour and meal,29.6,20,61.5751308174
+grain,Wheat flour,29.6,20,430.8175460864
+grain,Rye flour,29.6,20,1.490238453
 grain,Rice,41.04,33,54.3802038661
 meat,Cured fish,21.98,17,0.3862264741
 meat,Canned Sardines,39.84,36,0.2752515799

@@ -65,9 +65,27 @@
  ], 
  "grain": [
   {
+   "caloriesperday": 15.7477200658, 
+   "consumer_loss": 20.0, 
+   "name": "Corn starch", 
+   "total_loss": 29.6
+  }, 
+  {
    "caloriesperday": 61.5751308174, 
    "consumer_loss": 20.0, 
    "name": "Corn flour and meal", 
+   "total_loss": 29.6
+  }, 
+  {
+   "caloriesperday": 430.8175460864, 
+   "consumer_loss": 20.0, 
+   "name": "Wheat flour", 
+   "total_loss": 29.6
+  }, 
+  {
+   "caloriesperday": 1.490238453, 
+   "consumer_loss": 20.0, 
+   "name": "Rye flour", 
    "total_loss": 29.6
   }, 
   {
