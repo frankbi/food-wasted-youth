@@ -6,6 +6,16 @@ ul {
   width: 600px;
   margin: 0 auto;
   margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+.house {
+  width: 500px;
+  margin: 0 auto;
+}
+
+footer {
+  padding-bottom: 20px;
 }
 
 li {
