@@ -15,7 +15,8 @@ ul {
 }
 
 footer {
-  padding-bottom: 20px;
+  padding: 20px 0px 40px 0px;
+  border-top: 1px solid #dadada;
 }
 
 li {
@@ -30,6 +31,7 @@ li {
 li:hover {
 /*  background-color: #ccc;*/
   font-weight: bold;
+  color: #777;
 }
 
 #fruitveg, #grain, #meat, #milk, #seafood {
