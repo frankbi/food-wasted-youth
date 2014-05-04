@@ -1,196 +1,239 @@
-Dairy,Plain whole milk,20.0
-Dairy,2 percent milk,20.0
-Dairy,1 percent milk,20.0
-Dairy,Skim milk,20.0
-Dairy,Whole flavored milk,45.0
-Dairy,Lowfat flavored milk,45.0
-Dairy,Buttermilk,18.0
-Dairy,Yogurt,21.0
-Dairy,Cheddar cheese,11.0
-Dairy,Other American cheese,28.0
-Dairy,Provolone cheese,14.0
-Dairy,Romano cheese,8.0
-Dairy,Parmesan cheese,8.0
-Dairy,Mozarella cheese,31.0
-Dairy,Ricotta cheese,12.0
-Dairy,Other Italian cheese,16.0
-Dairy,Swiss cheese,50.0
-Dairy,Brick cheese,40.0
-Dairy,Muenster cheese,35.0
-Dairy,Blue cheese,43.0
-Dairy,Other miscellaneous cheese,42.0
-Dairy,Regular cottage cheese,31.0
-Dairy,Lowfat cottage cheese,4.0
-Dairy,Ice cream,24.0
-Dairy,Ice milk,24.0
-Dairy,Other frozen,33.0
-Dairy,Evap cond canned whole milk,15.0
-Dairy,Evap cond bulk whole milk,15.0
-Dairy,Evap cond skim milk,15.0
-Dairy,Dry whole milk,41.0
-Dairy,Nonfat dry milk,41.0
-Dairy,Dry buttermilk,41.0
-Dairy,Half and half,NA
-Dairy,Eggnog,51.0
-Fruit,Fresh oranges,36.0
-Fruit,Fresh tangerines,52.0
-Fruit,Fresh grapefruit,20.0
-Fruit,Fresh lemons,44.0
-Fruit,Fresh limes,44.0
-Fruit,Fresh apples,20.0
-Fruit,Fresh apricots,10.0
-Fruit,Fresh avocados,32.0
-Fruit,Fresh bananas,20.0
-Fruit,Fresh blueberries,8.0
-Fruit,Fresh cantaloup,43.0
-Fruit,Fresh cherries,51.0
-Fruit,Fresh cranberries,26.0
-Fruit,Fresh grapes,33.0
-Fruit,Fresh honeydew,43.0
-Fruit,Fresh kiwi,45.0
-Fruit,Fresh mangoes,13.0
-Fruit,Fresh papaya,20.0
-Fruit,Fresh peaches,42.0
-Fruit,Fresh pears,20.0
-Fruit,Fresh pineapple,37.0
-Fruit,Fresh plums,27.0
-Fruit,Fresh raspberries,20.0
-Fruit,Fresh strawberries,35.0
-Fruit,Fresh watermelon,13.0
-Fruit,Canned apples,8.0
-Fruit,Canned apricots,27.0
-Fruit,Canned sweet cherries,32.0
-Fruit,Canned tart cherries,32.0
-Fruit,Canned peaches,9.0
-Fruit,Canned pears,9.0
-Fruit,Canned pineapple,9.0
-Fruit,Canned plums,26.0
-Fruit,Canned olives,25.0
-Fruit,Frozen blackberries,40.0
-Fruit,Frozen blueberries,29.0
-Fruit,Frozen sweet cherries,29.0
-Fruit,Frozen tart cherries,29.0
-Fruit,Frozen raspberries,24.0
-Fruit,Frozen strawberries,24.0
-Fruit,Frozen other berries,30.0
-Fruit,Frozen apples,35.0
-Fruit,Frozen apricots,35.0
-Fruit,Frozen peaches,35.0
-Fruit,Frozen plums,10.0
-Fruit,Dried apples,11.0
-Fruit,Dried apricots,11.0
-Fruit,Dried dates,25.0
-Fruit,Dried figs,25.0
-Fruit,Dried peaches,11.0
-Fruit,Dried pears,NA
-Fruit,Dried plums,11.0
-Fruit,Raisins,26.0
-Fruit,Orange juice,10.0
-Fruit,Grapefruit juice,10.0
-Fruit,Lemon juice,10.0
-Fruit,Lime juice,10.0
-Fruit,Apple juice,10.0
-Fruit,Cranberry juice,10.0
-Fruit,Grape juice,10.0
-Fruit,Pineapple juice,10.0
-Fruit,Prune juice,32.0
-grain,Wheat flour,20.0
-grain,Rye flour,20.0
-grain,Rice,33.0
-grain,Corn flour and meal,20.0
-grain,Corn hominy and grits,20.0
-grain,Corn starch,20.0
-grain,Oat products,14.0
-grain,Barley products,14.0
-grain,White and whole wheat flour,20.0
-grain,Durum flour,20.0
-meat,Beef,20.0
-meat,Veal,20.0
-meat,Pork,29.0
-meat,Lamb,20.0
-meat,Chicken,15.0
-meat,Turkey,35.0
-meat,Fresh and frozen fish,40.0
-meat,Fresh and frozen shellfish,40.0
-meat,Canned Salmon,17.0
-meat,Canned Sardines,36.0
-meat,Canned Tuna,17.0
-meat,Canned shellfish,17.0
-meat,Other canned fish,17.0
-meat,Cured fish,17.0
-meat,Eggs,23.0
-meat,Peanuts,4.0
-meat,Almonds,21.0
-meat,Hazelnuts,20.0
-meat,Pecans,14.0
-meat,Walnuts,18.0
-meat,Macadamia,8.0
-meat,Pistachios,16.0
-meat,Other tree nuts,18.0
-meat,Coconut,10.0
-veg,Fresh artichokes,18.0
-veg,Fresh asparagus,18.0
-veg,Fresh bell peppers,39.0
-veg,Fresh broccoli,12.0
-veg,Fresh Brussels sprouts,12.0
-veg,Fresh cabbage,24.0
-veg,Fresh carrots,34.0
-veg,Fresh cauliflower,9.0
-veg,Fresh celery,39.0
-veg,Fresh collard greens,38.0
-veg,Fresh sweet corn,32.0
-veg,Fresh cucumbers,32.0
-veg,Fresh eggplant,26.0
-veg,Fresh escarole,24.0
-veg,Fresh garlic,43.0
-veg,Fresh kale,38.0
-veg,Fresh head lettuce,24.0
-veg,Fresh leaf lettuce,24.0
-veg,Fresh lima beans,27.0
-veg,Fresh mushrooms,21.0
-veg,Fresh mustard greens,38.0
-veg,Fresh okra,20.0
-veg,Fresh onions,43.0
-veg,Fresh potatoes,16.0
-veg,Fresh pumpkin,69.0
-veg,Fresh radishes,47.0
-veg,Fresh snap beans,24.0
-veg,Fresh spinach,9.0
-veg,Fresh squash,25.0
-veg,Fresh sweetpotatoes,44.0
-veg,Fresh tomatoes,7.0
-veg,Fresh turnip greens,38.0
-veg,Canned asparagus,2.0
-veg,Canned snap beans,24.0
-veg,Canned cabbage,16.0
-veg,Canned carrots,31.0
-veg,Canned sweet corn,7.0
-veg,Canned cucumbers,3.0
-veg,Canned green peas,24.0
-veg,Canned mushrooms,9.0
-veg,Canned chile peppers,4.0
-veg,Canned potatoes,28.0
-veg,Canned tomatoes,28.0
-veg,Other canned vegetables,16.0
-veg,Frozen asparagus,26.0
-veg,Frozen snap beans,24.0
-veg,Frozen broccoli,12.0
-veg,Frozen carrots,34.0
-veg,Frozen cauliflower,27.0
-veg,Frozen sweet corn,36.0
-veg,Frozen green peas,24.0
-veg,Frozen lima beans,27.0
-veg,Frozen potatoes,16.0
-veg,Frozen spinach,34.0
-veg,Misc frozen vegetables,26.0
-veg,Dehydrated onions,4.0
-veg,Dehydrated potatoes,4.0
-veg,Potato chips,4.0
-veg,Dry Peas and lentils,10.0
-veg,Dry black beans,10.0
-veg,Dry great northern beans,10.0
-veg,Dry lima beans,10.0
-veg,Dry navy beans,10.0
-veg,Dry pinto beans,10.0
-veg,Dry red kidney beans,10.0
-veg,Other dry beans,10.0
+foodgroup,foodcategory,fooditem,total_loss,consumer_loss,caloriesperday
+Dairy,Total fluid milk - Beverage milk and refrigerated yogurt,Plain whole milk,29.60000000000001,20.0,24.387806497364814
+Dairy,NULL,2 percent milk,29.599999999999994,20.0,27.493225423343514
+Dairy,NULL,1 percent milk,29.60000000000001,20.0,8.429116929302829
+Dairy,Total fluid milk - Beverage milk and refrigerated yogurt,Skim milk,29.599999999999994,20.0,7.798085295936263
+Dairy,NULL,All plain milk,29.59999999999998,NULL,68.10823414594742
+Dairy,Total fluid milk - Beverage milk and refrigerated yogurt,Whole flavored milk,51.60000000000001,45.0,0.8842108260571249
+Dairy,Total fluid milk - Beverage milk and refrigerated yogurt,Lowfat flavored milk,51.60000000000001,45.0,5.103168989751686
+Dairy,NULL,All flavored milk,51.6,NULL,5.987379815808811
+Dairy,Total fluid milk - Beverage milk and refrigerated yogurt,Buttermilk,27.840000000000003,18.0,0.5457775249875629
+Dairy,NULL,All beverage milks,31.489005608501216,NULL,74.64139148674379
+Dairy,NULL,Yogurt,30.480000000000004,21.0,7.089104011405014
+Dairy,NULL,Total fluid milk,31.416949278304443,NULL,81.7304954981488
+Dairy,"Total cheese - American, Italian, and miscellaneous cheese",Cheddar cheese,16.340000000000003,11.0,41.714253214918266
+Dairy,"Total cheese - American, Italian, and miscellaneous cheese",Other American cheese,32.31999999999999,28.0,10.961684244045568
+Dairy,NULL,All American cheese,20.31061597943311,NULL,52.67593745896383
+Dairy,"Total cheese - American, Italian, and miscellaneous cheese",Provolone cheese,19.159999999999997,14.0,4.057505434340417
+Dairy,"Total cheese - American, Italian, and miscellaneous cheese",Romano cheese,13.52000000000001,8.0,0.8583891402346506
+Dairy,"Total cheese - American, Italian, and miscellaneous cheese",Parmesan cheese,13.519999999999996,8.0,3.464745369624994
+Dairy,"Total cheese - American, Italian, and miscellaneous cheese",Mozarella cheese,35.14,31.0,27.305963702400234
+Dairy,"Total cheese - American, Italian, and miscellaneous cheese",Ricotta cheese,17.28,12.0,1.3550886341996604
+Dairy,"Total cheese - American, Italian, and miscellaneous cheese",Other Italian cheese,21.040000000000006,16.0,0.6491082102066816
+Dairy,NULL,All Italian cheese,31.117938330493175,NULL,37.69080049100664
+Dairy,"Total cheese - American, Italian, and miscellaneous cheese",Swiss cheese,53.0,50.0,2.679723785596883
+Dairy,"Total cheese - American, Italian, and miscellaneous cheese",Brick cheese,43.599999999999994,40.0,0.056488622288588655
+Dairy,"Total cheese - American, Italian, and miscellaneous cheese",Muenster cheese,38.9,35.0,1.0600049869747894
+Dairy,"Total cheese - American, Italian, and miscellaneous cheese",Blue cheese,46.419999999999995,43.0,0.7043175788542365
+Dairy,"Total cheese - American, Italian, and miscellaneous cheese",Other miscellaneous cheese,45.48,42.0,0.4867994563078479
+Dairy,NULL,Total miscellaneous cheese,48.71287342336582,NULL,4.987334430022345
+Dairy,NULL,Total cheese,27.547080630096872,NULL,95.35407237999281
+Dairy,Cottage cheese - Regular and lowfat cottage cheese,Regular cottage cheese,39.28,31.0,0.7268315701772553
+Dairy,Cottage cheese - Regular and lowfat cottage cheese,Lowfat cottage cheese,15.519999999999996,4.0,0.9448089575970241
+Dairy,NULL,Total cottage cheese,26.469128459314334,NULL,1.6716405277742794
+Dairy,NULL,Ice cream,33.11999999999999,24.0,22.541587049913055
+Dairy,NULL,Ice milk,33.11999999999999,24.0,0.024890688133858665
+Dairy,NULL,Other frozen,41.04,33.0,0.01278379526143164
+Dairy,NULL,Frozen dairy products,34.377495028652916,NULL,36.40038172026785
+Dairy,NULL,Evap cond canned whole milk,25.200000000000017,15.0,2.1184920920758623
+Dairy,NULL,Evap cond bulk whole milk,25.200000000000003,15.0,0.6801053667990926
+Dairy,NULL,Evap cond skim milk,25.200000000000017,15.0,3.7860895923845304
+Dairy,NULL,All evaporated condensed milk,25.200000000000017,NULL,6.584687051259485
+Dairy,Total dry milk products,Dry whole milk,41.589999999999996,41.0,0.7723818392750033
+Dairy,Total dry milk products,Nonfat dry milk,41.59,41.0,8.416349957072704
+Dairy,Total dry milk products,Dry buttermilk,41.589999999999996,41.0,0.7289552771942224
+Dairy,NULL,Dry milk products,41.59,NULL,9.917687073541929
+Dairy,NULL,Half and half,NA,NA,NA
+Dairy,NULL,Eggnog,85.85664,51.0,0.047336437281513835
+Dairy,NULL,Half and half and eggnog,85.85664,NULL,0.047336437281513835
+Dairy,NULL,Total dairy products,31.253901763069408,NULL,231.7063006882667
+Fruit,Total fresh citrus,Fresh oranges,68.26234803208766,36.0,1.786444643346782
+Fruit,Total fresh citrus,Fresh tangerines,83.37147689917525,52.0,0.41158897900202934
+Fruit,Total fresh citrus,Fresh grapefruit,74.63548855295318,20.0,0.2795998833783299
+Fruit,Total fresh citrus,Fresh lemons,91.96160882940254,44.0,0.07648456856305455
+Fruit,Total fresh citrus,Fresh limes,65.16063584311902,44.0,0.33171742870930876
+Fruit,NULL,Fresh citrus,74.31165135861163,NULL,2.8858355029995044
+Fruit,Total fresh noncitrus,Fresh apples,38.592627388411024,20.0,6.1494455876097565
+Fruit,Total fresh noncitrus,Fresh apricots,50.94896958567664,10.0,0.33185667566319305
+Fruit,Total fresh noncitrus,Fresh avocados,64.20083612610009,32.0,2.9101620583589463
+Fruit,Total fresh noncitrus,Fresh bananas,59.505151427122115,20.0,11.484883358843595
+Fruit,Total fresh noncitrus,Fresh blueberries,24.159512630619744,8.0,0.5990735673450429
+Fruit,Total fresh noncitrus,Fresh cantaloup,93.5378446020088,43.0,0.23297018301354996
+Fruit,Total fresh noncitrus,Fresh cherries,64.62494210708007,51.0,0.316109942158427
+Fruit,Total fresh noncitrus,Fresh cranberries,35.0078444008968,26.0,0.02230987540869946
+Fruit,Total fresh noncitrus,Fresh grapes,47.01820654044582,33.0,3.736575730366912
+Fruit,Total fresh noncitrus,Fresh honeydew,97.8682015024098,43.0,0.015641215798226138
+Fruit,NULL,Fresh kiwi,67.41175412354505,45.0,0.12242355236982616
+Fruit,Total fresh noncitrus,Fresh mangoes,54.49546809042784,13.0,0.8200166970636643
+Fruit,Total fresh noncitrus,Fresh papaya,79.85868819852823,20.0,0.11330501990904916
+Fruit,Total fresh noncitrus,Fresh peaches,57.32065899330965,42.0,1.0383299885300608
+Fruit,Total fresh noncitrus,Fresh pears,45.1900008455081,20.0,1.152062121507429
+Fruit,Total fresh noncitrus,Fresh pineapple,88.64567241334873,37.0,0.3995079101421379
+Fruit,Total fresh noncitrus,Fresh plums,47.3719869329644,27.0,0.23479960535065872
+Fruit,NULL,Fresh raspberries,36.89998256243248,20.0,0.08318067752898677
+Fruit,Total fresh noncitrus,Fresh strawberries,51.014460147151524,35.0,1.464396637092976
+Fruit,Total fresh noncitrus,Fresh watermelon,70.7888445608727,13.0,1.7135856146808055
+Fruit,NULL,Fresh noncitrus,60.84214557195756,NULL,32.94063601874194
+Fruit,NULL,Fresh fruit,63.08349738328331,NULL,35.826471521741446
+Fruit,NULL,Canned apples,30.816000000000003,8.0,1.4334807552791087
+Fruit,Total canned fruit,Canned apricots,52.34722222222223,27.0,0.016613705439791356
+Fruit,Total canned fruit,Canned sweet cherries,46.51046025104603,32.0,0.00018778808386788758
+Fruit,Total canned fruit,Canned tart cherries,39.275999999999996,32.0,0.02529940757948645
+Fruit,Total canned fruit,Canned peaches,28.716666666666654,9.0,0.6524670060016295
+Fruit,Total canned fruit,Canned pears,14.460000000000008,9.0,0.6075651426557299
+Fruit,NULL,Canned pineapple,49.94733762434171,9.0,0.7692414708697858
+Fruit,Total canned fruit,Canned plums,53.933774834437095,26.0,0.003027495281310432
+Fruit,Total canned fruit,Canned olives,33.490566037735846,25.0,1.6762663350230498
+Fruit,NULL,Canned fruit,33.756264521848365,NULL,5.18414910621376
+Fruit,Total frozen berries,Frozen blackberries,43.60000000000001,40.0,0.0402189037560249
+Fruit,Total frozen berries,Frozen blueberries,35.20388349514563,29.0,0.2433608232313508
+Fruit,Total other frozen fruit,Frozen sweet cherries,43.44067796610168,29.0,0.05944426630077963
+Fruit,Total other frozen fruit,Frozen tart cherries,39.87387387387389,29.0,0.19700944001282414
+Fruit,Total frozen berries,Frozen raspberries,31.961904761904776,24.0,0.20877322089464206
+Fruit,Total frozen berries,Frozen strawberries,19.730337078651687,24.0,0.1338124037067042
+Fruit,NULL,Frozen other berries,42.280701754385966,30.0,0.02636064006619143
+Fruit,NULL,Frozen berries,34.44049250457999,NULL,0.9089796979685172
+Fruit,Total other frozen fruit,Frozen apples,63.41317365269462,35.0,0.10719920495102213
+Fruit,Total other frozen fruit,Frozen apricots,44.45454545454547,35.0,0.013670435424289655
+Fruit,Total other frozen fruit,Frozen peaches,51.11999999999999,35.0,0.19170134510391185
+Fruit,NULL,Frozen plums,28.3050847457627,10.0,0.001259575957241303
+Fruit,NULL,Frozen other fruit,55.89512526237133,NULL,0.3138305614364649
+Fruit,NULL,Frozen fruit,41.80993417371241,NULL,1.2228102594049821
+Fruit,Total dried fruit,Dried apples,89.5425,11.0,0.20616338346906818
+Fruit,Total dried fruit,Dried apricots,84.95323741007194,11.0,0.25810009604525297
+Fruit,Total dried fruit,Dried dates,42.89719626168223,25.0,0.6356250493300039
+Fruit,Total dried fruit,Dried figs,76.0204081632653,25.0,0.1604163462882142
+Fruit,Total dried fruit,Dried peaches,86.09143807148794,11.0,0.1536056186118079
+Fruit,Total dried fruit,Dried pears,NA,NA,NA
+Fruit,Total dried fruit,Dried plums,67.82307692307693,11.0,0.9410834044174744
+Fruit,Total dried fruit,Raisins,85.70480882339643,26.0,4.1502574248982445
+Fruit,NULL,Dried fruit,82.39500211726757,NULL,6.505251323060066
+Fruit,Total citrus juice,Orange juice,45.122279213870655,10.0,17.043872829079724
+Fruit,Total citrus juice,Grapefruit juice,39.93526849533367,10.0,0.9186887389625128
+Fruit,Total citrus juice,Lemon juice,71.52884615384616,10.0,0.29236084540533447
+Fruit,Total citrus juice,Lime juice,71.8705,10.0,0.06955052030099981
+Fruit,NULL,Citrus juice,46.96649047111849,NULL,18.32447293374857
+Fruit,Total noncitrus juice,Apple juice,37.959999999999994,10.0,9.405809256013667
+Fruit,Total noncitrus juice,Cranberry juice,18.10825594901874,10.0,0.9928892853328797
+Fruit,Total noncitrus juice,Grape juice,31.550909090909087,10.0,2.0928537327856365
+Fruit,Total noncitrus juice,Pineapple juice,50.367999999999995,10.0,1.0469542519403332
+Fruit,Total noncitrus juice,Prune juice,53.78092307692307,32.0,0.17278435956521646
+Fruit,NULL,Noncitrus juice,37.358233159541435,NULL,13.711290885637732
+Fruit,NULL,Juice,43.38771860989551,NULL,32.035763819386304
+Fruit,NULL,Fruit,54.22411468018772,NULL,80.77444602980655
+grain,NULL,Grains,31.16999081353788,NULL,609.6419329371323
+grain,"Total grains - Wheat flour, rice, rye, corn, barley, and oats",Wheat flour,29.60000000000001,20.0,430.8175460863848
+grain,"Total grains - Wheat flour, rice, rye, corn, barley, and oats",Rye flour,29.60000000000001,20.0,1.4902384530395807
+grain,"Total grains - Wheat flour, rice, rye, corn, barley, and oats",Rice,41.039999999999985,33.0,54.38020386608778
+grain,"Total grains - Wheat flour, rice, rye, corn, barley, and oats",Corn flour and meal,29.599999999999994,20.0,61.57513081740624
+grain,"Total grains - Wheat flour, rice, rye, corn, barley, and oats",Corn hominy and grits,29.599999999999994,20.0,30.104391525698635
+grain,"Total grains - Wheat flour, rice, rye, corn, barley, and oats",Corn starch,29.599999999999994,20.0,15.747720065753423
+grain,NULL,Total Corn Products,29.599999999999994,NULL,107.4272424088583
+grain,"Total grains - Wheat flour, rice, rye, corn, barley, and oats",Oat products,41.91999999999999,14.0,13.831504424606424
+grain,"Total grains - Wheat flour, rice, rye, corn, barley, and oats",Barley products,41.92,14.0,1.6951976981552586
+grain,Discontinued Tables,White and whole wheat flour,29.60000000000001,20.0,392.0901144136135
+grain,Discontinued Tables,Durum flour,29.60000000000001,20.0,38.7274316727713
+meat,Total red meat,Beef,48.80521101422228,20.0,163.6377087315951
+meat,Total red meat,Veal,59.12665306354823,20.0,0.5624726890425114
+meat,Total red meat,Pork,50.49593484387521,29.0,101.65851708822646
+meat,Total red meat,Lamb,53.83447640434918,20.0,1.7820338405708476
+meat,NULL,Red meat,49.57320041725421,NULL,267.640732349435
+meat,Total poultry,Chicken,50.8621396523085,15.0,137.01749112694216
+meat,Total poultry,Turkey,50.427229882115945,35.0,20.61426803690335
+meat,NULL,Poultry,50.799043087728876,NULL,157.63175916384552
+meat,"Total fresh and frozen, canned, and cured fish and shellfish",Fresh and frozen fish,45.21776444258844,40.0,6.2078632183464295
+meat,"Total fresh and frozen, canned, and cured fish and shellfish",Fresh and frozen shellfish,45.562954426403124,40.0,3.100821166841744
+meat,NULL,Total Fresh and Frozen Fish,45.37374419951845,NULL,9.308684385188172
+meat,NULL,Canned Salmon,21.97999999999999,17.0,0.3143472760747619
+meat,NULL,Canned Sardines,39.839999999999996,36.0,0.27525157992213806
+meat,NULL,Canned Tuna,21.980000000000004,17.0,3.0388007489039683
+meat,"Total fresh and frozen, canned, and cured fish and shellfish",Canned shellfish,21.980000000000004,17.0,0.4723490154716655
+meat,"Total fresh and frozen, canned, and cured fish and shellfish",Other canned fish,21.980000000000004,17.0,0.5038168671335225
+meat,NULL,Canned fish and shellfish,22.870809484873263,NULL,4.604565487506057
+meat,"Total fresh and frozen, canned, and cured fish and shellfish",Cured fish,21.980000000000004,17.0,0.3862264740813197
+meat,NULL,Total fish and shellfish,39.24111418292811,NULL,14.299476346775549
+meat,NULL,Eggs,41.73725,23.0,33.62518136842981
+meat,NULL,Peanuts,9.760000000000005,4.0,44.24910881673802
+meat,Total tree nuts,Almonds,25.74000000000001,21.0,8.636514286301914
+meat,NULL,Hazelnuts,24.799999999999997,20.0,0.28207620185186405
+meat,Total tree nuts,Pecans,19.159999999999997,14.0,3.6931253915889632
+meat,Total tree nuts,Walnuts,22.92,18.0,2.84326300451874
+meat,NULL,Macadamia,13.52000000000001,8.0,0.8441421421611822
+meat,NULL,Pistachios,21.039999999999992,16.0,0.967049750039453
+meat,Total tree nuts,Other tree nuts,22.92,18.0,5.722346581323156
+meat,NULL,Total tree nuts,23.253952176783926,NULL,22.98851735778527
+meat,NULL,Coconut,15.400000000000006,10.0,4.304736959588738
+meat,NULL,Total meat group,47.44678036147465,NULL,544.7395123625978
+veg,Total fresh vegetables,Fresh artichokes,83.48992819095683,18.0,0.14123525532917636
+veg,Total fresh vegetables,Fresh asparagus,71.14740205763317,18.0,0.09873107145918561
+veg,Total fresh vegetables,Fresh bell peppers,63.513630491618066,39.0,0.9431130117475564
+veg,Total fresh vegetables,Fresh broccoli,60.308965529334195,12.0,0.9423217858377968
+veg,Total fresh vegetables,Fresh Brussels sprouts,41.699676546049524,12.0,0.08696338873508984
+veg,Total fresh vegetables,Fresh cabbage,55.250555787979955,24.0,0.978905986910132
+veg,Total fresh vegetables,Fresh carrots,49.392074768273176,34.0,1.9817783132668143
+veg,Total fresh vegetables,Fresh cauliflower,76.26609487399328,9.0,0.0983747778889497
+veg,Total fresh vegetables,Fresh celery,55.87290605526336,39.0,0.465964578728031
+veg,Total fresh vegetables,Fresh collard greens,89.54445711076434,38.0,0.03967972884331433
+veg,Total fresh vegetables,Fresh sweet corn,96.34250479429217,32.0,0.36031124465187453
+veg,Total fresh vegetables,Fresh cucumbers,64.59228118023468,32.0,0.34903999485493936
+veg,Total fresh vegetables,Fresh eggplant,61.05717204813962,26.0,0.09362901997935918
+veg,NULL,Fresh escarole,70.80721252371549,24.0,0.014098823443346684
+veg,Total fresh vegetables,Fresh garlic,67.00540908559285,43.0,1.434492197148087
+veg,Total fresh vegetables,Fresh kale,87.68890142263861,38.0,0.028502615510509283
+veg,Total fresh vegetables,Fresh head lettuce,49.069221913004505,24.0,1.2829131973872976
+veg,NULL,Fresh leaf lettuce,55.69886421579393,24.0,1.115332758730958
+veg,Total fresh vegetables,Fresh lima beans,86.2368,27.0,0.0022743988220135054
+veg,Total fresh vegetables,Fresh mushrooms,37.63257943727294,21.0,0.4411227495975492
+veg,Total fresh vegetables,Fresh mustard greens,82.40335665465054,38.0,0.024176353924548654
+veg,Total fresh vegetables,Fresh okra,56.10200000817762,20.0,0.07114272776619915
+veg,Total fresh vegetables,Fresh onions,60.13054583105985,43.0,4.062580019777885
+veg,Total fresh vegetables,Fresh potatoes,24.60094786546712,16.0,24.14470426360879
+veg,Total fresh vegetables,Fresh pumpkin,99.2011200243046,69.0,0.011529285666465211
+veg,Total fresh vegetables,Fresh radishes,67.05799185361153,47.0,0.03421600991649091
+veg,Total fresh vegetables,Fresh snap beans,51.00709476676812,24.0,0.3531073218024552
+veg,Total fresh vegetables,Fresh spinach,52.540028613266465,9.0,0.23716168031920035
+veg,Total fresh vegetables,Fresh squash,54.30919048878012,25.0,0.39262478631587217
+veg,Total fresh vegetables,Fresh sweetpotatoes,78.37347005420916,44.0,2.0104154795754674
+veg,Total fresh vegetables,Fresh tomatoes,38.01201130252543,7.0,2.814534149578253
+veg,Total fresh vegetables,Fresh turnip greens,83.37775561581289,38.0,0.027592451788250014
+veg,NULL,Fresh vegetables,52.70677088308655,NULL,45.08256942891185
+veg,Total canned vegetables,Canned asparagus,24.461600000000004,2.0,0.019128835882396954
+veg,Total canned vegetables,Canned snap beans,57.135999999999996,24.0,0.3915378573690168
+veg,NULL,Canned cabbage,65.2576,16.0,0.0694583760471684
+veg,Total canned vegetables,Canned carrots,51.355,31.0,0.10982204230108042
+veg,Total canned vegetables,Canned sweet corn,36.1834,7.0,4.407909423211583
+veg,NULL,Canned cucumbers,63.528,3.0,1.985192917089044
+veg,Total canned vegetables,Canned green peas,52.84960000000001,24.0,0.4594833806030624
+veg,Total canned vegetables,Canned mushrooms,44.399,9.0,0.2177624216855475
+veg,Total canned vegetables,Canned chile peppers,34.12479999999999,4.0,1.1488176201776112
+veg,Total canned vegetables,Canned potatoes,51.9472,28.0,0.25959034189999225
+veg,Total canned vegetables,Canned tomatoes,72.2512,28.0,4.697673857776212
+veg,Total canned vegetables,Other canned vegetables,39.9904,16.0,0.5170371959555524
+veg,NULL,Canned vegetables,64.51190576506235,NULL,14.283414269998268
+veg,Total frozen vegetables,Frozen asparagus,63.771065199999995,26.0,0.008644345794309935
+veg,Total frozen vegetables,Frozen snap beans,39.4574576,24.0,0.42247050445107376
+veg,Total frozen vegetables,Frozen broccoli,37.8044864,12.0,0.5351310373368798
+veg,Total frozen vegetables,Frozen carrots,65.91212200000001,34.0,0.2260998341066599
+veg,Total frozen vegetables,Frozen cauliflower,52.01197539999999,27.0,0.04171691553882164
+veg,Total frozen vegetables,Frozen sweet corn,83.7405568,36.0,1.4019302667770808
+veg,Total frozen vegetables,Frozen green peas,34.458800800000006,24.0,0.9600894014125154
+veg,Total frozen vegetables,Frozen lima beans,34.64761904761906,27.0,0.3348537627879139
+veg,Total frozen vegetables,Frozen potatoes,60.52000000000001,16.0,19.217558492309152
+veg,Total frozen vegetables,Frozen spinach,56.615428,34.0,0.1911978491322398
+veg,NULL,Misc frozen vegetables,53.62664348,26.0,0.7625768160501707
+veg,NULL,Frozen vegetables,60.92129446765489,NULL,24.10226922569682
+veg,Total processed and dehydrated vegetables,Dehydrated onions,90.0736,4.0,0.5773348405414747
+veg,Total processed and dehydrated vegetables,Dehydrated potatoes,87.3664,4.0,6.233131801615398
+veg,NULL,Potato chips,77.44,4.0,23.434062460089166
+veg,NULL,Other processed vegetables,82.09300286144841,NULL,30.24452910224604
+veg,NULL,Dry Peas and lentils,15.400000000000006,10.0,1.1976054706355117
+veg,Legumes,Dry black beans,15.400000000000006,10.0,0.5028387811212817
+veg,Legumes,Dry great northern beans,15.400000000000006,10.0,0.2595109467516534
+veg,Legumes,Dry lima beans,15.399999999999991,10.0,0.14308007806004872
+veg,Legumes,Dry navy beans,15.400000000000006,10.0,1.2273256306035936
+veg,Legumes,Dry pinto beans,15.400000000000006,10.0,5.23717837561051
+veg,Legumes,Dry red kidney beans,15.400000000000006,10.0,0.6585201925755114
+veg,Legumes,Other dry beans,15.400000000000006,10.0,2.073399845161846
+veg,Legumes,Dry edible beans,15.40000000000002,NULL,10.101853849884446
+veg,NULL,Legumes,15.40000000000002,NULL,11.299459320519958
+veg,NULL,Vegetables,58.43192646946184,NULL,125.01224134737294
