@@ -1,0 +1,156 @@
+[
+ {
+  "caloriesperday": 3.4647453696, 
+  "consumer_loss": 8.0, 
+  "foodgroup": "Dairy", 
+  "fooditem": "Parmesan cheese", 
+  "total_loss": 13.52
+ }, 
+ {
+  "caloriesperday": 7.7980852959, 
+  "consumer_loss": 20.0, 
+  "foodgroup": "Dairy", 
+  "fooditem": "Skim milk", 
+  "total_loss": 29.6
+ }, 
+ {
+  "caloriesperday": 22.5415870499, 
+  "consumer_loss": 24.0, 
+  "foodgroup": "Dairy", 
+  "fooditem": "Ice cream", 
+  "total_loss": 33.12
+ }, 
+ {
+  "caloriesperday": 0.7043175789, 
+  "consumer_loss": 43.0, 
+  "foodgroup": "Dairy", 
+  "fooditem": "Blue cheese", 
+  "total_loss": 46.42
+ }, 
+ {
+  "caloriesperday": 0.0473364373, 
+  "consumer_loss": 51.0, 
+  "foodgroup": "Dairy", 
+  "fooditem": "Eggnog", 
+  "total_loss": 85.85664
+ }, 
+ {
+  "caloriesperday": 0.6075651427, 
+  "consumer_loss": 9.0, 
+  "foodgroup": "Fruit", 
+  "fooditem": "Canned pears", 
+  "total_loss": 14.46
+ }, 
+ {
+  "caloriesperday": 9.405809256, 
+  "consumer_loss": 10.0, 
+  "foodgroup": "Fruit", 
+  "fooditem": "Apple juice", 
+  "total_loss": 37.96
+ }, 
+ {
+  "caloriesperday": 0.2347996054, 
+  "consumer_loss": 27.0, 
+  "foodgroup": "Fruit", 
+  "fooditem": "Fresh plums", 
+  "total_loss": 47.371986933
+ }, 
+ {
+  "caloriesperday": 4.1502574249, 
+  "consumer_loss": 26.0, 
+  "foodgroup": "Fruit", 
+  "fooditem": "Raisins", 
+  "total_loss": 85.7048088234
+ }, 
+ {
+  "caloriesperday": 0.0764845686, 
+  "consumer_loss": 44.0, 
+  "foodgroup": "Fruit", 
+  "fooditem": "Fresh lemons", 
+  "total_loss": 91.9616088294
+ }, 
+ {
+  "caloriesperday": 61.5751308174, 
+  "consumer_loss": 20.0, 
+  "foodgroup": "grain", 
+  "fooditem": "Corn flour and meal", 
+  "total_loss": 29.6
+ }, 
+ {
+  "caloriesperday": 54.3802038661, 
+  "consumer_loss": 33.0, 
+  "foodgroup": "grain", 
+  "fooditem": "Rice", 
+  "total_loss": 41.04
+ }, 
+ {
+  "caloriesperday": 0.3862264741, 
+  "consumer_loss": 17.0, 
+  "foodgroup": "meat", 
+  "fooditem": "Cured fish", 
+  "total_loss": 21.98
+ }, 
+ {
+  "caloriesperday": 0.2752515799, 
+  "consumer_loss": 36.0, 
+  "foodgroup": "meat", 
+  "fooditem": "Canned Sardines", 
+  "total_loss": 39.84
+ }, 
+ {
+  "caloriesperday": 163.6377087316, 
+  "consumer_loss": 20.0, 
+  "foodgroup": "meat", 
+  "fooditem": "Beef", 
+  "total_loss": 48.8052110142
+ }, 
+ {
+  "caloriesperday": 157.6317591638, 
+  "consumer_loss": null, 
+  "foodgroup": "meat", 
+  "fooditem": "Poultry", 
+  "total_loss": 50.7990430877
+ }, 
+ {
+  "caloriesperday": 0.562472689, 
+  "consumer_loss": 20.0, 
+  "foodgroup": "meat", 
+  "fooditem": "Veal", 
+  "total_loss": 59.1266530635
+ }, 
+ {
+  "caloriesperday": 11.2994593205, 
+  "consumer_loss": null, 
+  "foodgroup": "veg", 
+  "fooditem": "Legumes", 
+  "total_loss": 15.4
+ }, 
+ {
+  "caloriesperday": 24.1447042636, 
+  "consumer_loss": 16.0, 
+  "foodgroup": "veg", 
+  "fooditem": "Fresh potatoes", 
+  "total_loss": 24.6009478655
+ }, 
+ {
+  "caloriesperday": 0.2371616803, 
+  "consumer_loss": 9.0, 
+  "foodgroup": "veg", 
+  "fooditem": "Fresh spinach", 
+  "total_loss": 52.5400286133
+ }, 
+ {
+  "caloriesperday": 1.4344921971, 
+  "consumer_loss": 43.0, 
+  "foodgroup": "veg", 
+  "fooditem": "Fresh garlic", 
+  "total_loss": 67.0054090856
+ }, 
+ {
+  "caloriesperday": 0.0115292857, 
+  "consumer_loss": 69.0, 
+  "foodgroup": "veg", 
+  "fooditem": "Fresh pumpkin", 
+  "total_loss": 99.2011200243
+ }
+]
