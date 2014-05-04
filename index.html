@@ -48,41 +48,8 @@
             <div id="vis-container"></div>
           </div>
 		  <div class="attach-table clearfix"></div>
-            <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
-            <script type="text/javascript" src="../js/d3.min.js"></script>
-			<script type="text/javascript" src="../js/handlebars-v1.3.0.js"></script>
-			<script id="table-template" type="text/x-handlebars-template">
-
-				<div class="col-md-offset-2 col-md-10">
-					<div class="col-md-2">
-						<h2>Skim Milk</h2>
-						<h3>20 % </h3>
-					</div>
-					<div class="col-md-2">
-						<h2>Skim Milk</h2>
-						<h3>20 % </h3>
-					</div>
-					<div class="col-md-2">
-						<h2>Skim Milk</h2>
-						<h3>20 % </h3>
-					</div>
-					<div class="col-md-2">
-						<h2>Skim Milk</h2>
-						<h3>20 % </h3>
-					</div>
-					<div class="col-md-2">
-						<h2>Skim Milk</h2>
-						<h3>20 % </h3>
-					</div>
-				</div>
-
-			</script>
-			<script type="text/javascript">
-				var source   = $("#table-template").html();
-				var template = Handlebars.compile(source);
-				$(".attach-table").html(template());
-			</script>
-
+            <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+            <script type="text/javascript" src="js/d3.min.js"></script>
           <footer>
             <p class="small text-center"><a href="faq.html">Why we built ScrapStats</a>&nbsp;&nbsp;&#10084;&nbsp;&nbsp;<a href="team.html">Meet the team</a></p>
           </footer>
@@ -92,21 +59,152 @@
 
     <!-- triggers to draw -->
     <script>
-      $("#fruitveg").click(function(){
-        drawPie('fruitveg');
+
+	    var table = $(".attach-table");
+
+		var d;
+
+		$.getJSON("foodtable.json", function(data) {
+			d = data;
+		});
+
+
+      $("#fruit").click(function(){
+		table.html(function() {
+			var text = "<div class='col-md-offset-2 col-md-10'>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.fruit[0].name + "</h2>" +
+			"<h3>" + Math.floor(d.fruit[0].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.fruit[1].name + "</h2>" +
+			"<h3>" + Math.floor(d.fruit[1].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.fruit[2].name + "</h2>" +
+			"<h3>" + Math.floor(d.fruit[2].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.fruit[3].name + "</h2>" +
+			"<h3>" + Math.floor(d.fruit[3].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.fruit[4].name + "</h2>" +
+			"<h3>" + Math.floor(d.fruit[4].total_loss) + "%</h3>" +
+			"</div>" +
+			"</div>";
+			return text
+		});
       });
       $("#grain").click(function(){
-        drawPie('grain');
+		table.html(function() {
+			var text = "<div class='col-md-offset-2 col-md-10'>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.grain[0].name + "</h2>" +
+			"<h3>" + Math.floor(d.grain[0].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.grain[1].name + "</h2>" +
+			"<h3>" + Math.floor(d.grain[1].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.grain[2].name + "</h2>" +
+			"<h3>" + Math.floor(d.grain[2].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.grain[3].name + "</h2>" +
+			"<h3>" + Math.floor(d.grain[3].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.grain[4].name + "</h2>" +
+			"<h3>" + Math.floor(d.grain[4].total_loss) + "%</h3>" +
+			"</div>" +
+			"</div>";
+			return text
+		});	
       });
       $("#meat").click(function(){
-        drawPie('meat');
+		table.html(function() {
+			var text = "<div class='col-md-offset-2 col-md-10'>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.meat[0].name + "</h2>" +
+			"<h3>" + Math.floor(d.meat[0].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.meat[1].name + "</h2>" +
+			"<h3>" + Math.floor(d.meat[1].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.meat[2].name + "</h2>" +
+			"<h3>" + Math.floor(d.meat[2].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.meat[3].name + "</h2>" +
+			"<h3>" + Math.floor(d.meat[3].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.meat[4].name + "</h2>" +
+			"<h3>" + Math.floor(d.meat[4].total_loss) + "%</h3>" +
+			"</div>" +
+			"</div>";
+			return text
+		});	
       });
       $("#milk").click(function(){
-        drawPie('milk');
+		table.html(function() {
+			var text = "<div class='col-md-offset-2 col-md-10'>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.milk[0].name + "</h2>" +
+			"<h3>" + Math.floor(d.milk[0].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.milk[1].name + "</h2>" +
+			"<h3>" + Math.floor(d.milk[1].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.milk[2].name + "</h2>" +
+			"<h3>" + Math.floor(d.milk[2].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.milk[3].name + "</h2>" +
+			"<h3>" + Math.floor(d.milk[3].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.milk[4].name + "</h2>" +
+			"<h3>" + Math.floor(d.milk[4].total_loss) + "%</h3>" +
+			"</div>" +
+			"</div>";
+			return text
+		});	
       });
-      $("#seafood").click(function(){
-        drawPie('seafood');
+      $("#veg").click(function(){
+		table.html(function() {
+			var text = "<div class='col-md-offset-2 col-md-10'>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.veg[0].name + "</h2>" +
+			"<h3>" + Math.floor(d.veg[0].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.veg[1].name + "</h2>" +
+			"<h3>" + Math.floor(d.veg[1].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.veg[2].name + "</h2>" +
+			"<h3>" + Math.floor(d.veg[2].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.veg[3].name + "</h2>" +
+			"<h3>" + Math.floor(d.veg[3].total_loss) + "%</h3>" +
+			"</div>" +
+			"<div class='col-md-2'>" +
+			"<h2>" + d.veg[4].name + "</h2>" +
+			"<h3>" + Math.floor(d.veg	[4].total_loss) + "%</h3>" +
+			"</div>" +
+			"</div>";
+			return text
+		});		
       });
+
 
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
