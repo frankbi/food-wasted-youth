@@ -35,9 +35,43 @@
           <!-- This is where the d3 function lives -->
           <div class="house">
             <div id="vis-container"></div>
+          </div>
+		  <div class="attach-table clearfix"></div>
             <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
             <script type="text/javascript" src="../js/d3.min.js"></script>
-          </div>
+			<script type="text/javascript" src="../js/handlebars-v1.3.0.js"></script>
+			<script id="table-template" type="text/x-handlebars-template">
+			
+				<div class="col-md-offset-2 col-md-10">
+					<div class="col-md-2">
+						<h2>Skim Milk</h2>
+						<h3>20 % </h3>
+					</div>
+					<div class="col-md-2">
+						<h2>Skim Milk</h2>
+						<h3>20 % </h3>
+					</div>
+					<div class="col-md-2">
+						<h2>Skim Milk</h2>
+						<h3>20 % </h3>
+					</div>
+					<div class="col-md-2">
+						<h2>Skim Milk</h2>
+						<h3>20 % </h3>
+					</div>
+					<div class="col-md-2">
+						<h2>Skim Milk</h2>
+						<h3>20 % </h3>
+					</div>
+				</div>
+
+			</script>
+			<script type="text/javascript">
+				var source   = $("#table-template").html();
+				var template = Handlebars.compile(source);
+				$(".attach-table").html(template());
+			</script>
+
           <footer>
             <p class="small text-center"><a href="faq.html">Why we built ScrapStats</a>&nbsp;&nbsp;&#10084;&nbsp;&nbsp;<a href="team.html">Meet the team</a></p>
           </footer>
