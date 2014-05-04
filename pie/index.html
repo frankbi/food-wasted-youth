@@ -5,8 +5,10 @@
 		<title></title>
 		<style>
 			#canvas {
-
+				stroke:white;
+				stroke-width:2px;
 			}
+
 		</style>
 	</head>
 	<body>
@@ -18,6 +20,11 @@
 		// global object
 		// reset to clear pie
 		var data = [];
+		// var data = [{"label":"chicken","value":0.7, "total_loss":20}];
+	
+		drawPie("meat");
+
+
 
 		function drawPie(arg) {
 
@@ -29,30 +36,31 @@
 
 				data.push({
 					"label": json[arg].Label,
-					"value": json[arg]["Consumer Losses"]
+					"value": json[arg]["Consumer Losses"],
+					"total_loss": json[arg]["Total Loss"]
 				});
+
 
 				var r = 300,
 					width = 600,
 					height = 600;
 
 				var vis = d3.select("#vis-container")
-							.append("svg:svg")
-							.data([data])
-							.attr("width", width)
-							.attr("height", height)
-							.attr("id", "canvas")
-							.append("svg:g")
-							.attr("transform", "translate(" + r + "," + r + ")");
-
-				var arc = d3.svg.arc()
-							.outerRadius(r);
-
+					.append("svg:svg")
+					.data([data])
+					.attr("width", width)
+					.attr("height", height)
+					.attr("id", "canvas")
+					.append("svg:g")
+					.attr("transform", "translate(" + r + "," + r + ")");
 
 				var pie = d3.layout.pie()
-							.value(function(d) {
-								return d.value;
-							});
+					.value(function(d) {
+						return d.value;
+					});
+
+				var arc = d3.svg.arc()
+					.outerRadius(r);
 
 				var arcs = vis.selectAll("g.slice")
 					.data(pie)
@@ -64,14 +72,56 @@
 					.attr("fill", function(d, i) { return color(i); })
 					.attr("d", arc);
 
-				arcs.append("svg:text")
-					.attr("transform", function(d) {
-						d.innerRadius = 0;
-						d.outerRadius = r;
-						 return "translate(" + arc.centroid(d) + ")";
+
+				var arr = [];
+
+				var arcx = d3.svg.arc()
+					.innerRadius(0)
+					.startAngle(function(d, i) {
+
+							console.log(d["startAngle"])
+
+						return 0;
+
 					})
-					.attr("text-anchor", "middle")
-					.text(function(d, i) { return data[i].label; });
+					.endAngle(function(d, i) {
+
+						var radians = d["endAngle"] - 2 * Math.PI;
+
+						arr.push(radians);
+
+						console.log(d["endAngle"])
+
+						return d["endAngle"] - 6.28;
+
+
+					});
+
+					spie(arg, "red");
+
+
+		function spie(arg, color) {
+
+				var arcsy = vis.selectAll("g." + arg)
+					.data(pie)
+					.enter()
+						.append("svg:g")
+						.attr("d", function(d) {
+								var loss = d.data.total_loss;
+								return arcx.outerRadius(loss);
+						})
+						.attr("class", arg);
+
+				arcsy.append("svg:path")
+					.attr("fill", function(d, i) { return color; })
+					.attr("d", arcx);
+
+		}
+
+
+
+					
+
 			});
 		}
 

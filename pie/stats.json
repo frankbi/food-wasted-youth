@@ -20,7 +20,7 @@
   "Pre-Consumer Losses": 0.16,
   "Processing and Packaging Losses": 0.1,
   "Production Losses": 0.02,
-  "Total Loss": 0.38,
+  "Total Loss": 380,
   "key": "grain"
  },
  "meat": {
@@ -32,7 +32,7 @@
   "Pre-Consumer Losses": 0.13,
   "Processing and Packaging Losses": 0.04,
   "Production Losses": 0.03,
-  "Total Loss": 0.22,
+  "Total Loss": 220,
   "key": "meat"
  },
  "milk": {
