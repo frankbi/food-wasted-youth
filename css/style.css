@@ -18,9 +18,8 @@ li {
 }
 
 li:hover {
-  background-color: #ccc;
+/*  background-color: #ccc;*/
   font-weight: bold;
-
 }
 
 #fruitveg, #grain, #meat, #milk, #seafood {
@@ -32,9 +31,13 @@ li:hover {
   padding-top: 80px;
 }
 
-#fruitveg { background-image: url(/graphics/icon_5254.svg);
-  fill: #ccc; }
+#fruitveg { background-image: url(/graphics/icon_5254.svg); }
+#fruitveg:hover { background-image: url(/graphics/icon_5254_1.svg); }
 #grain { background-image: url(/graphics/icon_4139.svg); }
-#meat { background-image: url(/graphics/icon_14424.svg); }
+#grain:hover { background-image: url(/graphics/icon_4139_1.svg); }
+#meat { background-image: url(/graphics/icon_5965.svg); }
+#meat:hover { background-image: url(/graphics/icon_5965_1.svg); }
 #milk { background-image: url(/graphics/icon_1701.svg); }
+#milk:hover { background-image: url(/graphics/icon_1701_1.svg); }
 #seafood { background-image: url(/graphics/icon_25364.svg); }
+#seafood:hover { background-image: url(/graphics/icon_25364_1.svg); }
