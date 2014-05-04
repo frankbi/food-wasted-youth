@@ -47,7 +47,14 @@
           <div class="house">
             <div id="vis-container"></div>
           </div>
-		  <div class="attach-table clearfix"></div>
+      </div>
+      <div class='row'>
+        <div class="col-md-offset-2 col-md-8">
+          <div class='row'>
+		      <div class="attach-table clearfix"></div>
+          </div>
+        </div>
+      </div>
             <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
             <script type="text/javascript" src="js/d3.min.js"></script>
           <footer>
@@ -71,24 +78,20 @@
 
       $("#fruit").click(function(){
 		table.html(function() {
-			var text = "<div class='col-md-offset-2 col-md-10'>" +
-			"<div class='col-md-2'>" +
+			var text = "<div class='col-md-offset-1 col-md-10'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.fruit[0].name + "</h2>" +
 			"<h3>" + Math.floor(d.fruit[0].total_loss) + "%</h3>" +
 			"</div>" +
-			"<div class='col-md-2'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.fruit[1].name + "</h2>" +
 			"<h3>" + Math.floor(d.fruit[1].total_loss) + "%</h3>" +
 			"</div>" +
-			"<div class='col-md-2'>" +
-			"<h2>" + d.fruit[2].name + "</h2>" +
-			"<h3>" + Math.floor(d.fruit[2].total_loss) + "%</h3>" +
-			"</div>" +
-			"<div class='col-md-2'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.fruit[3].name + "</h2>" +
 			"<h3>" + Math.floor(d.fruit[3].total_loss) + "%</h3>" +
 			"</div>" +
-			"<div class='col-md-2'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.fruit[4].name + "</h2>" +
 			"<h3>" + Math.floor(d.fruit[4].total_loss) + "%</h3>" +
 			"</div>" +
@@ -98,111 +101,95 @@
       });
       $("#grain").click(function(){
 		table.html(function() {
-			var text = "<div class='col-md-offset-2 col-md-10'>" +
-			"<div class='col-md-2'>" +
+			var text = "<div class='col-md-offset-1 col-md-10'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.grain[0].name + "</h2>" +
 			"<h3>" + Math.floor(d.grain[0].total_loss) + "%</h3>" +
 			"</div>" +
-			"<div class='col-md-2'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.grain[1].name + "</h2>" +
 			"<h3>" + Math.floor(d.grain[1].total_loss) + "%</h3>" +
 			"</div>" +
-			"<div class='col-md-2'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.grain[2].name + "</h2>" +
 			"<h3>" + Math.floor(d.grain[2].total_loss) + "%</h3>" +
 			"</div>" +
-			"<div class='col-md-2'>" +
-			"<h2>" + d.grain[3].name + "</h2>" +
-			"<h3>" + Math.floor(d.grain[3].total_loss) + "%</h3>" +
-			"</div>" +
-			"<div class='col-md-2'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.grain[4].name + "</h2>" +
 			"<h3>" + Math.floor(d.grain[4].total_loss) + "%</h3>" +
 			"</div>" +
 			"</div>";
 			return text
-		});	
+		});
       });
       $("#meat").click(function(){
 		table.html(function() {
-			var text = "<div class='col-md-offset-2 col-md-10'>" +
-			"<div class='col-md-2'>" +
+			var text = "<div class='col-md-offset-1 col-md-10'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.meat[0].name + "</h2>" +
 			"<h3>" + Math.floor(d.meat[0].total_loss) + "%</h3>" +
 			"</div>" +
-			"<div class='col-md-2'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.meat[1].name + "</h2>" +
 			"<h3>" + Math.floor(d.meat[1].total_loss) + "%</h3>" +
 			"</div>" +
-			"<div class='col-md-2'>" +
-			"<h2>" + d.meat[2].name + "</h2>" +
-			"<h3>" + Math.floor(d.meat[2].total_loss) + "%</h3>" +
-			"</div>" +
-			"<div class='col-md-2'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.meat[3].name + "</h2>" +
 			"<h3>" + Math.floor(d.meat[3].total_loss) + "%</h3>" +
 			"</div>" +
-			"<div class='col-md-2'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.meat[4].name + "</h2>" +
 			"<h3>" + Math.floor(d.meat[4].total_loss) + "%</h3>" +
 			"</div>" +
 			"</div>";
 			return text
-		});	
+		});
       });
       $("#milk").click(function(){
 		table.html(function() {
-			var text = "<div class='col-md-offset-2 col-md-10'>" +
-			"<div class='col-md-2'>" +
+			var text = "<div class='col-md-offset-1 col-md-10'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.milk[0].name + "</h2>" +
 			"<h3>" + Math.floor(d.milk[0].total_loss) + "%</h3>" +
 			"</div>" +
-			"<div class='col-md-2'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.milk[1].name + "</h2>" +
 			"<h3>" + Math.floor(d.milk[1].total_loss) + "%</h3>" +
 			"</div>" +
-			"<div class='col-md-2'>" +
-			"<h2>" + d.milk[2].name + "</h2>" +
-			"<h3>" + Math.floor(d.milk[2].total_loss) + "%</h3>" +
-			"</div>" +
-			"<div class='col-md-2'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.milk[3].name + "</h2>" +
 			"<h3>" + Math.floor(d.milk[3].total_loss) + "%</h3>" +
 			"</div>" +
-			"<div class='col-md-2'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.milk[4].name + "</h2>" +
 			"<h3>" + Math.floor(d.milk[4].total_loss) + "%</h3>" +
 			"</div>" +
 			"</div>";
 			return text
-		});	
+		});
       });
       $("#veg").click(function(){
 		table.html(function() {
-			var text = "<div class='col-md-offset-2 col-md-10'>" +
-			"<div class='col-md-2'>" +
+			var text = "<div class='col-md-offset-1 col-md-10'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.veg[0].name + "</h2>" +
 			"<h3>" + Math.floor(d.veg[0].total_loss) + "%</h3>" +
 			"</div>" +
-			"<div class='col-md-2'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.veg[1].name + "</h2>" +
 			"<h3>" + Math.floor(d.veg[1].total_loss) + "%</h3>" +
 			"</div>" +
-			"<div class='col-md-2'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.veg[2].name + "</h2>" +
 			"<h3>" + Math.floor(d.veg[2].total_loss) + "%</h3>" +
 			"</div>" +
-			"<div class='col-md-2'>" +
+			"<div class='col-md-3'>" +
 			"<h2>" + d.veg[3].name + "</h2>" +
 			"<h3>" + Math.floor(d.veg[3].total_loss) + "%</h3>" +
 			"</div>" +
-			"<div class='col-md-2'>" +
-			"<h2>" + d.veg[4].name + "</h2>" +
-			"<h3>" + Math.floor(d.veg	[4].total_loss) + "%</h3>" +
-			"</div>" +
 			"</div>";
 			return text
-		});		
+		});
       });
 
 
