@@ -10,6 +10,9 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
+    <script type="text/javascript" src="//use.typekit.net/uod8xfw.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
 		<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -29,6 +32,7 @@
             <li id="milk">Dairy</li>
             <li id="seafood">Seafood</li>
           </ul>
+          <!-- This is where the d3 function lives -->
           <div class="house">
             <div id="vis-container"></div>
             <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
@@ -54,7 +58,7 @@
 
                 var r = 250,
                   width = 600,
-                  height = 600;
+                  height = 500;
 
                 var vis = d3.select("#vis-container")
                       .append("svg:svg")
@@ -98,11 +102,31 @@
             </script>
           </div>
           <footer>
-            <p class="small text-center"><a href="#">Why we built ScrapStats</a></p>
+            <p class="small text-center"><a href="faq.html">Why we built ScrapStats</a>&nbsp;&nbsp;&#10084;&nbsp;&nbsp;<a href="#">Meet the team</a></p>
           </footer>
         </div>
       </div>
     </div>
+
+    <!-- triggers to draw -->
+    <script>
+      $("#fruitveg").click(function(){
+        drawPie('fruitveg');
+      });
+      $("#grain").click(function(){
+        drawPie('grain');
+      });
+      $("#meat").click(function(){
+        drawPie('meat');
+      });
+      $("#milk").click(function(){
+        drawPie('milk');
+      });
+      $("#seafood").click(function(){
+        drawPie('seafood');
+      });
+
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	</body>
