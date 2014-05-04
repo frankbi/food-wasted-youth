@@ -1,1 +1,40 @@
-body { background-color: green; }
+body { background-color: #ededed; }
+
+h1 { font-size: 5em;}
+
+ul {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+li {
+  list-style-type: none;
+  float: left;
+  width: 80px;
+  height: 50px;
+  margin: 10px;
+  text-align: center;
+}
+
+li:hover {
+  background-color: #ccc;
+  font-weight: bold;
+
+}
+
+#fruitveg, #grain, #meat, #milk, #seafood {
+  background-size: 70px 70px;
+  background-position: 5px 0px;
+  background-repeat: no-repeat;
+  line-height: 1.2em;
+  text-align: center;
+  padding-top: 80px;
+}
+
+#fruitveg { background-image: url(/graphics/icon_5254.svg);
+  fill: #ccc; }
+#grain { background-image: url(/graphics/icon_4139.svg); }
+#meat { background-image: url(/graphics/icon_14424.svg); }
+#milk { background-image: url(/graphics/icon_1701.svg); }
+#seafood { background-image: url(/graphics/icon_25364.svg); }
