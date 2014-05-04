@@ -1,7 +1,18 @@
 body { background-color: #ededed; }
 
-h1 { font-size: 5em;}
+h1, h2, h3, h4 {
+  font-family: 'adelle', sans-serif;
+}
 
+h1 { font-size: 5em;
+  font-weight: bold;
+}
+
+h2 a { text-decoration: none; }
+
+p {
+  font-family: 'adelle', sans-serif;
+}
 ul {
   width: 600px;
   margin: 0 auto;
@@ -15,6 +26,7 @@ ul {
 }
 
 footer {
+  margin-top: 40px;
   padding: 20px 0px 40px 0px;
   border-top: 1px solid #dadada;
 }
