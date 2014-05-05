@@ -1,4 +1,7 @@
-food-wasted-youth
-=================
+Scrap Stats
+===========
 
-Nat Geo Food Hackathon May 2014
+Homepage: http://frankbi.github.io/food-wasted-youth/
+
+Development is on the gh-pages branch of this repository.
+
