@@ -1,4 +1,7 @@
-body { background-color: #ededed; }
+body {
+  background-image: url(../graphics/small_scrap.gif);
+  background-size: cover;
+}
 
 .pad-top {padding-top: 30px;}
 
